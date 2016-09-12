@@ -13,7 +13,6 @@ import java.util.*;
 class Solution {
   public static void main(String[] args) {
     double[] data = new double[]{1,2,3,2,1,5,2,1};
-    double[] diff = new double[data.length];
     System.out.println("MAX "+divide(data,0,data.length));
   }
   private static Pair divide(double[] data,int start,int end){
